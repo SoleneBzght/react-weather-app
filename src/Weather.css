@@ -2,6 +2,7 @@
   color: #1b3745;
   padding-top: 20px;
   padding-bottom: 30px;
+  text-align: center;
 }
 h1 {
   font-size: 40px;
@@ -12,9 +13,9 @@ h1 {
   top: -15px;
 }
 
-.main-icon {
-  height: 80px;
-  width: 80px;
+img {
+  height: 100px;
+  width: 100px;
 }
 h2 {
   margin-bottom: 0;

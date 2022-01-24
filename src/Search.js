@@ -7,16 +7,16 @@ export default function Search() {
     <div className="search-wrap">
       <form id="search-form">
         <div className="row">
-          <div className="col-8">
+          <div className="col-9">
             <input
               type="search"
-              placeholder="Enter a city"
               className="form-control"
+              placeholder="Enter a city"
               autoComplete="off"
               id="search-input"
             />
           </div>
-          <div className="col-4">
+          <div className="col-3">
             <input
               type="submit"
               value="Search"

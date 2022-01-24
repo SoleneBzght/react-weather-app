@@ -1,5 +1,8 @@
 .search-wrap {
   margin-bottom: 20px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .form-control {
   border-color: #1b3745;

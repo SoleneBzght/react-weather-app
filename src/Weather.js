@@ -10,9 +10,9 @@ export default function Weather() {
           <h1 id="city">Paris</h1>
           <div className="image">
             <img
+              id="main-icon"
               src="https://openweathermap.org/img/wn/04n@2x.png"
               alt=""
-              id="main-icon"
             />
           </div>
         </div>
