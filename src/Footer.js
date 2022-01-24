@@ -9,8 +9,8 @@ export default function Footer() {
         <a
           target="_blank"
           rel="noreferrer noopener"
-          href="https://github.com/SoleneBzght/react-weather-app"
           className="githubLink"
+          href="https://github.com/SoleneBzght/react-weather-app"
         >
           Open-source code
         </a>{" "}
