@@ -10,7 +10,7 @@ export default function Search(props) {
     setData({
       ready: true,
       city: response.data.name,
-      iconUrl: "https://openweathermap.org/img/wn/04n@2x.png",
+      icon: response.data.weather[0].icon,
       description: response.data.weather[0].main,
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
