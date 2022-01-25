@@ -1,11 +1,11 @@
 import React, { useState } from "react";
+import FormattedDate from "./FormattedDate";
 import axios from "axios";
 import "./Search.css";
 
 export default function Search(props) {
   const [data, setData] = useState({ ready: false });
   function handleResponse(response) {
-    console.log(response.data);
     setData({
       ready: true,
       city: response.data.name,
@@ -14,7 +14,7 @@ export default function Search(props) {
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
-      date: "January 25 2022, 21:32",
+      date: new Date(response.data.dt * 1000),
     });
   }
 
@@ -70,7 +70,10 @@ export default function Search(props) {
             </div>
           </div>
           <div className="date">
-            Last updated: <span id="updateDate">{data.date}</span>
+            Last updated:{" "}
+            <span id="updateDate">
+              <FormattedDate date={data.date} />
+            </span>
           </div>
         </div>
       </div>
