@@ -1,0 +1,11 @@
+.forecast-wrap {
+  margin-top: 50px;
+  text-align: center;
+  color: #1b3745;
+}
+.forecast-date {
+  font-size: 16px;
+}
+.forecast-temp {
+  font-size: 14px;
+}

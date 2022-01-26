@@ -12,7 +12,11 @@ export default function Weather(props) {
         <div className="col-md-6 main">
           <h1 id="city">{props.data.city}</h1>
           <div className="image">
-            <WeatherIcon code={props.data.icon} alt={props.data.description} />
+            <WeatherIcon
+              code={props.data.icon}
+              alt={props.data.description}
+              size={80}
+            />
           </div>
         </div>
         <div className="col-md-6 temp">
