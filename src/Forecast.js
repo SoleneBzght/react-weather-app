@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import ForecastDay from "./ForecastDay";
 import axios from "axios";
 import "./Forecast.css";
@@ -24,6 +23,7 @@ export default function Forecast(props) {
                 </div>
               );
             }
+            return null;
           })}
         </div>
       </div>
